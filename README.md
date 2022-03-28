@@ -1,6 +1,5 @@
 # Frontend Service Users
-
-
+Project ini saya buat dengan Next.js, React hook, Tailwind, Daisy, Typescript dan Axios
 
 ## Cara memulai dan menjalankan project
 -   Lakukan git clone https://gitlab.com/ferdianar/privy-frontend.git
@@ -34,15 +33,20 @@ Untuk log out klik kanan atas profile
 Klik Logout, otomatis refresh token akan di cleardari cookies, dan diredirect ke halaman login. sehingga kalau masuk ke halaman profile lagi, akan ditolak, dan diredirect ke halaman login lagi. 
 
 ## Preview Halaman Home ketika dijalankan pertama kali
+Judul halaman di atas akan otomatis tampil sesuai kondisi halaman. Kalau sedang di homepage, akan tampil **Homepage**
+Dan karena awal user belum login, jadi untuk nama user di pojok kanan atas masih **undefined** karena tidak terdeteksi access token yang valid. 
 <img src="https://gitlab.com/ferdianar/privy-frontend/-/raw/main/assets/test.png" alt="previewhome" />
 
 ## Preview Halaman Profile
+Jika sudah sukses login, akan tampil seperti ini. Nama user di pojok kanan atas otomatis ter update. Sesuai access token
 <img src="https://gitlab.com/ferdianar/privy-frontend/-/raw/main/assets/profile.png" alt="preview" />
 
 ## Letak tombol log out untuk mengakhiri sesi dan refresh token
+Halaman Profile di required untuk login dahulu, jadi ketika sudah logout , masuk ke profile lagi akan ditolak
 <img src="https://gitlab.com/ferdianar/privy-frontend/-/raw/main/assets/logout.png" alt="logout" />
 
 ## Mobile Friendly, menggunakan Tailwind CSS, Daisy + Grid
+Karena selalu suka mobile version, jadi tidak lupa untuk responsive nya
 <img src="https://gitlab.com/ferdianar/privy-frontend/-/raw/main/assets/mobile.png" alt="mobile" />
 
 
