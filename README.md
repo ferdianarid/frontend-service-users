@@ -46,7 +46,7 @@ Halaman Profile di required untuk login dahulu, jadi ketika sudah logout , masuk
 <img src="https://gitlab.com/ferdianar/privy-frontend/-/raw/main/assets/logout.png" alt="logout" />
 
 ## Mobile Friendly, menggunakan Tailwind CSS, Daisy + Grid
-Karena selalu suka mobile version, jadi tidak lupa untuk responsive nya
+Karena selalu suka mobile version, jadi tidak lupa untuk responsive nya <br />
 <img src="https://gitlab.com/ferdianar/privy-frontend/-/raw/main/assets/mobile.png" alt="mobile" />
 
 
